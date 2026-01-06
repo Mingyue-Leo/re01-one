@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>我的网站</title>
+    <link rel="icon" href="D:\网页\小小图标.png" type="image/x-icon" />
+  </head>
+  <body>
+    <style>
+  body {
+    background-image: url("背景.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+</style>
+    <div>
+      <header><b style="color: rgb(96, 62, 21);">新的世界</b></header>
+      <input value="相信自己"
+      style="background-color: rgb(62, 60, 56);">
+    </div>
+    <main>
+        <a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development">
+        <img borde="10" src="新世界.jpg" alt="新世界" width="80" height="80" object-fit:covre mix-blend-mode:darken /></a> 
+      <div style="
+      text-align: center;
+      padding: 40px;"
+      >
+      <embed height="50" width="100" src="D:\网页\我的网站_files\万甲赴征.mp3">
+        <h1>Hello, World!</h1>
+      <p style="color: rgb(88, 76, 26);">欢迎来到新的世界！！！</p>
+      <p2 style="color: aquamarine;">慢慢来这个<strong>世界</strong>一定是<strong>我们</strong>的！！！</p2>
+      <!-- <p3>这一段你看不到</p3> -->
+      <a
+        href="https://www.bilibili.com/video/BV1Da2kBWEdQ/?spm_id_from=333.1365.list.card_archive.click&vd_source=690991bd1330edde80f8e287115cb013"
+        >不要着急</a>
+      </div>
+      <div style="
+      text-align: center;
+      padding: 40px;">
+        <h2>新的方向</h2>
+        <img src="目标.jpg" alt="目标" width="200" height="200" />
+		    <form action="">
+          <select name="text">
+            <option value="当前的目标" > 当前的目标</option>
+            <option value="以后的目标" > 以后的目标</option>
+          </select>
+        </form>
+		    <a href="https://metaisland.feishu.cn/mindnotes/bmncnVm87LbPlQF0jigDuSegubd#mindmap">目前计划</a>
+        <p>这里有<a href=>我的微信</a></p>
+        <p>请留下你的联系方式</p>
+        <form action=""
+        id="form1" style="color: rgb(106, 78, 40);">
+          姓名：<input type="text" name="姓名" style="background-color: rgb(79, 78, 77,0.347);"><br>
+          联系方式:<input type="text" name="联系方式" style="background-color: rgb(79, 78, 77,0.347);"><br>
+          <input type="hidden" name="userId" value="12345" >
+          <button type="submit" style="background-color: rgb(79, 78, 77,0.347);">提交</button>
+        </form>
+      </div>
+      </main>
+      <div class="container"
+      style="width: 100%;
+      overflow: hidden";>
+      <div class="div1"
+      style="float: left;
+      width: 60%;
+      height: 400px;"
+      display="flex"
+      justify-content="center">
+      <h style="color: rgb(198, 136, 44);">第一板块</h><br>
+      <video width="320" height="240" controls autoplay>
+        <source src="D:\网页\我的网站_files\下载 .ogg" type="video/ogg">
+        <source src="D:\网页\我的网站_files\下载.mp4" type="video/mp4">
+        <source src="D:\网页\我的网站_files\下载 .webm" type="video/webm">
+        <object data="D:\网页\我的网站_files\下载.mp4" width="320" height="240">
+        <embed width="320" height="240" src="D:\网页\我的网站_files\下载 .swf">
+        </object>
+      </video><br>
+      <audio id="myAudio" src="D:\网页\万甲赴征.mp3" type="audio/mp3"></audio>
+      <button onclick="document.getElementById('myAudio').play()" style="background-color: rgba(79, 78, 77, 0.347);color: aquamarine;">播放</button>
+      <button onclick="document.getElementById('myAudio').pause()"style="background-color: rgba(79, 78, 77, 0.347);color: aquamarine;">暂停</button>
+      <button onclick="document.getElementById('myAudio').volume=0.5"style="background-color: rgba(79, 78, 77, 0.347);color: aquamarine;">设置音量 50%</button>
+      </div>
+      <div class="div2"
+      style="float: left;
+      width: 40%;
+      height: 400px;">
+      <h style="color: rgb(161, 101, 11);">第二板块</h>
+      <p>此处内容待开发</p>
+      <p 
+      style="font-size:18px"
+      id="example" hidden> 
+      <a href="http://127.0.0.1:5500/youxiu.html">小米的LOGO</a><br>
+      <a href="https://m.yxzs.360.cn/detail?ch=bc94554358f15748&from=detail&query=%E5%BC%80%E5%BF%83%E6%B6%88%E6%B6%88%E4%B9%90&type=sy&qhclickid=e35c8d2e64b787dd">&#128512</a>; 
+      <a href="https://www.bilibili.com/bangumi/play/ep350223">&#128516</a>;
+      <a href="https://www.bilibili.com/video/BV1gwSyBeE7Q/?spm_id_from=333.1365.list.card_archive.click&vd_source=690991bd1330edde80f8e287115cb013">&#128525</a>; 
+      <a href="https://car.yiche.com/newcar/gouchejisuanqi/?carid=184492">&#128151</a>;
+      </p>
+      <button 
+      onclick="document.getElementById('example').removeAttribute('hidden')" style="background-color: rgb(79, 78, 77,0.347);">这里有秘密</button>
+      </div>
+      </div>
+    <footer style="background-color: rgb(79, 78, 77,0.347);
+    text-align: center;
+    font-size: 12px;">
+    
+      <p style="color: aquamarine;">由D+調本人完全制作</p>
+      <p2><time pubdate datetime="2025-12-12"></time></p2> 
+    </footer>
+  </body>
+</html>
